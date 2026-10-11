@@ -6,7 +6,7 @@
 [![Toplam Oyun](https://img.shields.io/badge/toplam%20oyun-36-blue)](https://spiritkiller.github.io/Re-comp-Games-Arsiv/)
 [![Kaynak](https://img.shields.io/badge/kaynak-Archive.org-orange)](https://archive.org/details/@chun_s_ready-to-go_recomp_games)
 
-🔗 [**Canlı Siteye Git**](https://spiritkiller.github.io/Re-comp-Games-Arsiv/) • [**Archive.org Koleksiyonu**](https://archive.org/details/@chun_s_ready-to-go_recomp_games)
+🔗 [**Canlı Siteye Git**](https://spiritkiller.github.io/Re-comp-Games-Arsiv/) • [**Archive.org Koleksiyonu**](https://archive.org/details/@chun_s_ready-to-go_recomp_games) • 📋 [**Link Durum Listesi (LINK-DURUMU.md)**](LINK-DURUMU.md)
 
 </div>
 
@@ -33,3 +33,11 @@
 4. **Çalıştırın:** Klasörün içindeki ana oyun `.exe` dosyasına çift tıklayarak hemen oynayın.
    - *Not:* Emülatör kurulumu veya BIOS ayarı gerekmez; tüm oyunlar hazır derlenmiş (Ready-to-Go) PC portudur.
 5. **Kontroller:** USB/Bluetooth üzerinden Xbox veya DualSense kolunuzu bağladığınızda kontroller otomatik tanınır; FPS oyunlarında fare ile nişan alma (mouselook) varsayılan olarak açıktır.
+
+---
+
+## ⚖️ Yasal Uyarı & Kültürel Koruma (Preservation)
+
+> [!NOTE]
+> **Bu arşiv tamamen dijital oyun mirasını ve kültürünü koruma (preservation) amacıyla hazırlanmıştır.** 
+> Sitede yer alan hiçbir dosya tarafımızca barındırılmamakta olup, kamuya açık üçüncü taraf arşiv platformlarına (Archive.org) yönlendirme yapılmaktadır. Telif hakkı sahipleri herhangi bir içerik kaldırma veya telif bildirimi için GitHub üzerinden Issues açarak veya iletişime geçerek talepte bulunabilirler. İlgili bağlantılar derhal kaldırılacaktır.
