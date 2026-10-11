@@ -28,7 +28,7 @@
 ## 🚀 Nasıl Kullanılır?
 
 1. **Oyunu Seçin:** [Canlı siteye](https://spiritkiller.github.io/Re-comp-Games-Arsiv/) gidin veya arama çubuğundan (`/` kısayolu ile) istediğiniz oyunu aratın.
-2. **İndirin:** Oyun kartındaki **"⬇ İndir"** butonuna tıklayın. Açılan indirme sayfasından `.7z` veya `.zip` arşivini doğrudan indirin.
+2. **İndirin:** Oyun kartındaki **"⬇ İndir"** butonuna tıklayın. Açılan indirme sayfasından `.7z`, `.rar` veya `.zip` arşivini doğrudan indirin.
 3. **Arşivden Çıkarın:** İndirdiğiniz dosyayı [7-Zip](https://www.7-zip.org/) veya WinRAR ile istediğiniz bir klasöre çıkartın.
 4. **Çalıştırın:** Klasörün içindeki ana oyun `.exe` dosyasına çift tıklayarak hemen oynayın.
    - *Not:* Emülatör kurulumu veya BIOS ayarı gerekmez; tüm oyunlar hazır derlenmiş (Ready-to-Go) PC portudur.
