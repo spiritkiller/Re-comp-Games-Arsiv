@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lordumelkor Game's Archive | Recomp Games</title>
+  <link rel="icon" href="https://archive.org/favicon.ico">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card-bg: #181b24;
+      --card-border: #262a38;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #e5534b;
+      --accent-hover: #f85149;
+      --primary: #58a6ff;
+      --badge-bg: #21262d;
+      --success: #238636;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+    header {
+      background: linear-gradient(180deg, rgba(229, 83, 75, 0.15) 0%, rgba(15, 17, 23, 0) 100%);
+      padding: 40px 20px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .brand-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .brand-title span { color: var(--accent); }
+    .brand-desc {
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-size: 0.95rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+    .stat-badge {
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .stat-badge strong { color: var(--primary); }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .search-box {
+      position: relative;
+      margin-bottom: 25px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 14px 20px;
+      padding-right: 50px;
+      font-size: 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      color: #fff;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(229, 83, 75, 0.2);
+    }
+    .search-shortcut {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    .filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+    }
+    .filter-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover { color: #fff; border-color: var(--text-muted); }
+    .filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+    .game-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .game-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(229, 83, 75, 0.5);
+    }
+    .game-thumb {
+      width: 100%;
+      height: 180px;
+      background: #000;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .game-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .game-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 10px;
+    }
+    .game-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .game-platform {
+      background: rgba(88, 166, 255, 0.15);
+      color: var(--primary);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+    .game-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .feature-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 14px;
+    }
+    .feature-tag {
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      color: #7ee787;
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .game-footer {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid var(--card-border);
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.2s;
+    }
+    .btn-download {
+      background: var(--accent);
+      color: #fff;
+      flex: 1;
+    }
+    .btn-download:hover { background: var(--accent-hover); }
+    .btn-outline {
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+    }
+    .btn-outline:hover { background: #30363d; }
+    .game-size {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-left: auto;
+    }
+    .no-results {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px 0;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--card-border);
+      margin-top: 50px;
+    }
+    footer a { color: var(--primary); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="brand-title">🎮 <span>Lordumelkor</span> Game's Archive</h1>
+    <p class="brand-desc">Chun's Ready-to-Go Recomp Games & Native PC Ports. Emülatörsüz, ayar gerektirmeyen, doğrudan oynanabilir PC portları.</p>
+    <div class="stats-bar">
+      <div class="stat-badge">Toplam Oyun: <strong id="stat-count">0</strong></div>
+      <div class="stat-badge">Platformlar: <strong>N64, Xbox 360, PS1, PS2, SNES</strong></div>
+      <div class="stat-badge">Kaynak: <strong>Archive.org & GitHub Releases</strong></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="search-box">
+      <input type="text" id="searchInput" class="search-input" placeholder="Oyun ara (ör. Zelda, Sonic, King Kong, Banjo)..." autocomplete="off">
+      <span class="search-shortcut">/</span>
+    </div>
+
+    <div class="filters" id="platformFilters">
+      <button class="filter-btn active" data-platform="all">Tümü</button>
+      <button class="filter-btn" data-platform="Nintendo 64">Nintendo 64</button>
+      <button class="filter-btn" data-platform="Xbox 360">Xbox 360</button>
+      <button class="filter-btn" data-platform="PlayStation 1">PlayStation 1</button>
+      <button class="filter-btn" data-platform="PlayStation 2">PlayStation 2</button>
+      <button class="filter-btn" data-platform="SNES">SNES</button>
+    </div>
+
+    <div class="games-grid" id="gamesGrid"></div>
+    <div class="no-results" id="noResults" style="display:none;">Aramanızla eşleşen oyun bulunamadı.</div>
+  </div>
+
+  <footer>
+    <p>Lordumelkor Game's Archive • Topluluk tabanlı yeniden derleme (recomp) oyun arşivi</p>
+    <p style="margin-top:5px;"><a href="https://archive.org/details/@chun_s_ready-to-go_recomp_games" target="_blank">Archive.org Koleksiyonu</a> • <a href="KULLANIM.md">Kullanım Rehberi</a></p>
+  </footer>
+
+  <script src="games.js"></script>
+  <script src="eklenen.js"></script>
+  <script src="kaldirilan.js"></script>
+  <script>
+    (function () {
+      // 1. Veri Birlestirme (Override Mimarisi)
+      let allGames = (window.RECOMP_GAMES || []).concat(window.EKLENEN_OYUNLAR || []);
+      const kaldirilanSet = new Set(window.KALDIRILAN_OYUNLAR || []);
+      allGames = allGames.filter(g => !kaldirilanSet.has(g.id));
+
+      const statCount = document.getElementById('stat-count');
+      const gamesGrid = document.getElementById('gamesGrid');
+      const noResults = document.getElementById('noResults');
+      const searchInput = document.getElementById('searchInput');
+      const filterBtns = document.querySelectorAll('.filter-btn');
+
+      statCount.textContent = allGames.length;
+      let currentPlatform = 'all';
+
+      // 2. Kart Olusturucu
+      function renderGames(games) {
+        if (!games.length) {
+          gamesGrid.innerHTML = '';
+          noResults.style.display = 'block';
+          return;
+        }
+        noResults.style.display = 'none';
+
+        gamesGrid.innerHTML = games.map(g => `
+          <div class="game-card">
+            <img class="game-thumb" src="${g.cover}" alt="${g.title}" loading="lazy" onerror="this.src='https://archive.org/services/img/@chun_s_ready-to-go_recomp_games';">
+            <div class="game-body">
+              <div class="game-header">
+                <div class="game-title">${g.title}</div>
+                <div class="game-platform">${g.platform}</div>
+              </div>
+              <div class="game-desc">${g.description || ''}</div>
+              <div class="feature-tags">
+                ${(g.features || []).slice(0, 3).map(f => `<span class="feature-tag">${f}</span>`).join('')}
+              </div>
+              <div class="game-footer">
+                <a class="btn btn-download" href="${g.downloadUrl}" target="_blank">⬇ İndir</a>
+                <a class="btn btn-outline" href="${g.archiveUrl}" target="_blank" title="Archive.org Detay">🔗</a>
+                <span class="game-size">${g.size || ''}</span>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 3. Filtreleme & Arama
+      function filterData() {
+        const query = searchInput.value.toLowerCase().trim();
+        const filtered = allGames.filter(g => {
+          const matchPlatform = currentPlatform === 'all' || g.platform.includes(currentPlatform);
+          const matchQuery = !query || 
+            g.title.toLowerCase().includes(query) || 
+            (g.description && g.description.toLowerCase().includes(query)) ||
+            (g.features && g.features.some(f => f.toLowerCase().includes(query)));
+          return matchPlatform && matchQuery;
+        });
+        renderGames(filtered);
+      }
+
+      // 4. Dinleyiciler
+      searchInput.addEventListener('input', filterData);
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentPlatform = btn.dataset.platform;
+          filterData();
+        });
+      });
+
+      // '/' Kısayolu ile aramaya odaklanma
+      document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement !== searchInput) {
+          e.preventDefault();
+          searchInput.focus();
+        }
+      });
+
+      // Ilk yukleme
+      renderGames(allGames);
+    })();
+  </script>
+</body>
+</html>
