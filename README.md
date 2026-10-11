@@ -49,10 +49,3 @@ Arşivdeki oyunlar **Ready-to-Go (Çalışmaya Hazır)** formatındadır:
 | **Super Metroid Recompiled** | SNES | Genişletilmiş görüş alanı, MSU-1 müzikler |
 
 ---
-
-## 🛠️ Nasıl Yayınlanır? (GitHub Pages)
-
-1. Bu depoyu GitHub hesabınıza aktarın (push).
-2. Reponun **Settings** > **Pages** bölümüne gidin.
-3. **Branch** olarak `main` ve `/ (root)` seçin, kaydedin.
-4. Siteniz saniyeler içinde yayında!
