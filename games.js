@@ -1,4 +1,4 @@
-// Lordumelkor Game's Archive - Recomp Games Database (36+ Ready-to-Go Recomp Games)
+// Lordumelkor Game's Archive - Recomp Games Database (36 Ready-to-Go Recomp Games - All Archive.org Direct Links)
 window.RECOMP_GAMES = [
   {
     "id": "king-kong-recomp",
@@ -73,9 +73,9 @@ window.RECOMP_GAMES = [
     "year": 1998,
     "size": "65 MB",
     "features": ["60+ FPS", "Ultra Widescreen", "Serbest Kamera", "Randomizer"],
-    "description": "Harbour Masters tarafından geliştirilen native PC portu.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://github.com/HarbourMasters/Shipwright/releases",
+    "description": "Ship of Harkinian PC portunun tüm varlıkları hazır paketi.",
+    "archiveUrl": "https://archive.org/details/ship-of-harkinian_202405",
+    "downloadUrl": "https://archive.org/download/ship-of-harkinian_202405/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.webp"
   },
   {
@@ -86,9 +86,9 @@ window.RECOMP_GAMES = [
     "year": 2000,
     "size": "85 MB",
     "features": ["60+ FPS", "Widescreen", "QoL İyileştirmeleri"],
-    "description": "Majora's Mask için ultra akıcı, çift analog ve fare destekli PC portu.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://github.com/HarbourMasters/2ship2harkinian/releases",
+    "description": "Majora's Mask için ultra akıcı, çift analog ve fare destekli hazır port paketi.",
+    "archiveUrl": "https://archive.org/details/ship-of-harkinian",
+    "downloadUrl": "https://archive.org/download/ship-of-harkinian/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zsn.webp"
   },
   {
@@ -132,15 +132,15 @@ window.RECOMP_GAMES = [
   },
   {
     "id": "sm64ex-recomp",
-    "title": "Super Mario 64 (sm64ex PC Port)",
+    "title": "Super Mario 64 (PC Port - Ready to Play)",
     "platform": "Nintendo 64",
     "genre": "3D Platformer",
     "year": 1996,
     "size": "40 MB",
     "features": ["60 FPS Akıcı", "Widescreen 16:9", "HD Mario Modeli"],
     "description": "Tüm modern geliştirmelerle derlenmiş hazır Mario 64 PC portu.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://github.com/sm64pc/sm64ex/releases",
+    "archiveUrl": "https://archive.org/details/mario-64-pc-port.-7z_202005",
+    "downloadUrl": "https://archive.org/download/mario-64-pc-port.-7z_202005/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29vn.webp"
   },
   {
@@ -346,22 +346,22 @@ window.RECOMP_GAMES = [
     "year": 2001,
     "size": "1.2 GB",
     "features": ["60 / 120 FPS", "Ultra Widescreen", "Özel Doku Paketleri"],
-    "description": "Naughty Dog'un GOAL dilinin tersine mühendislikle PC için derlenmiş hali.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://opengoal.dev/",
+    "description": "Naughty Dog'un GOAL dilinin tersine mühendislikle PC için derlenmiş hazır paketi.",
+    "archiveUrl": "https://archive.org/details/opengoal-windows-v0.1.20",
+    "downloadUrl": "https://archive.org/download/opengoal-windows-v0.1.20/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2958.webp"
   },
   {
     "id": "jak-2-opengoal",
-    "title": "Jak II: Renegade (OpenGOAL)",
+    "title": "Jak II: Renegade (OpenGOAL Repack)",
     "platform": "PlayStation 2",
     "genre": "Action / Open World",
     "year": 2003,
     "size": "2.4 GB",
     "features": ["Yüksek Kare Hızı", "Gelişmiş Aydınlatma", "Widescreen"],
-    "description": "Jak II'nin OpenGOAL motoruyla hazırlanan muazzam PC native portu.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://opengoal.dev/",
+    "description": "Jak II'nin OpenGOAL motoruyla hazırlanan muazzam PC native hazır repacki.",
+    "archiveUrl": "https://archive.org/details/jak-ii-repack",
+    "downloadUrl": "https://archive.org/download/jak-ii-repack/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2959.webp"
   },
   {
@@ -444,28 +444,28 @@ window.RECOMP_GAMES = [
   },
   {
     "id": "sonic-cd-decomp",
-    "title": "Sonic CD (Retro Engine Decomp)",
+    "title": "Sonic The Hedgehog CD (PC Decomp)",
     "platform": "Sega CD / PC",
     "genre": "Platformer",
     "year": 1993,
     "size": "280 MB",
     "features": ["60 FPS", "Native 16:9", "Tails Oynanabilir", "Japonca/ABD Müzik Seçimi"],
-    "description": "Christian Whitehead'in RSDK motorunun tersine mühendislikle PC için derlenmiş hali.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/releases",
+    "description": "Christian Whitehead'in RSDK motoruyla PC için hazırlanmış hazır Sonic CD paketi.",
+    "archiveUrl": "https://archive.org/details/sonic-the-hedgehog-cd-2011",
+    "downloadUrl": "https://archive.org/download/sonic-the-hedgehog-cd-2011/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co204m.webp"
   },
   {
     "id": "sonic-1-2-decomp",
-    "title": "Sonic 1 & 2 (Retro Engine Decomp)",
+    "title": "Sonic 1 & 2 (Retro Engine Data & PC Port)",
     "platform": "Mega Drive / PC",
     "genre": "Platformer",
     "year": 1991,
     "size": "150 MB",
     "features": ["Widescreen", "Drop Dash", "Knuckles & Tails Desteği"],
-    "description": "Mobil remaster sürümlerinin PC'ye aktarılmış bağımsız hazır sürümleri.",
-    "archiveUrl": "https://archive.org/details/@chun_s_ready-to-go_recomp_games",
-    "downloadUrl": "https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation/releases",
+    "description": "Retro Engine Sonic 1 ve 2 verilerinin PC için derlenmiş hazır paketi.",
+    "archiveUrl": "https://archive.org/details/retroenginedatarsdkfiles_202508",
+    "downloadUrl": "https://archive.org/download/retroenginedatarsdkfiles_202508/",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co204o.webp"
   }
 ];
