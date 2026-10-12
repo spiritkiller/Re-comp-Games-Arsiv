@@ -3,7 +3,7 @@
 # 🎮 Lordumelkor Game's Archive
 
 [![Canlı Site](https://img.shields.io/badge/canlı%20site-GitHub%20Pages-green)](https://spiritkiller.github.io/Re-comp-Games-Arsiv/)
-[![Toplam Oyun](https://img.shields.io/badge/toplam%20oyun-36-blue)](https://spiritkiller.github.io/Re-comp-Games-Arsiv/)
+[![Toplam Oyun](https://img.shields.io/badge/toplam%20oyun-46-blue)](https://spiritkiller.github.io/Re-comp-Games-Arsiv/)
 [![Kaynak](https://img.shields.io/badge/kaynak-Archive.org-orange)](https://archive.org/details/@chun_s_ready-to-go_recomp_games)
 
 🔗 [**Canlı Siteye Git**](https://spiritkiller.github.io/Re-comp-Games-Arsiv/) • [**Archive.org Koleksiyonu**](https://archive.org/details/@chun_s_ready-to-go_recomp_games) • 📋 [**Link Durum Listesi (LINK-DURUMU.md)**](LINK-DURUMU.md)
@@ -16,8 +16,8 @@
 
 | Metrik | Değer |
 |---|---|
-| **Toplam Hazır Oyun (Ready-to-Go)** | 36 Adet |
-| **Desteklenen Platformlar** | Nintendo 64, Xbox 360, PlayStation 1, PlayStation 2, SNES, Sega CD |
+| **Toplam Hazır Oyun (Ready-to-Go)** | 46 Adet |
+| **Desteklenen Platformlar** | Nintendo 64, Xbox 360, PlayStation 1, PlayStation 2, GameCube, SNES, Sega CD |
 | **İşletim Sistemi** | Windows (x64), Linux, Batocera / Steam Deck |
 | **Ortalama Kare Hızı** | 60 - 240 FPS (Kilitsiz) |
 | **Görüntü Oranı** | 16:9 Geniş Ekran & 21:9 Ultra-Wide |

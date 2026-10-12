@@ -41,6 +41,16 @@
 | 34 | Total Chaos D.C. (PC Ready) | PC Native | ✅ | [İndir](https://archive.org/download/total-chaos-d.-c./) | [Detay](https://archive.org/details/total-chaos-d.-c.) |  |
 | 35 | Sonic The Hedgehog CD (PC Decomp) | Sega CD / PC | ✅ | [İndir](https://archive.org/download/sonic-the-hedgehog-cd-2011/) | [Detay](https://archive.org/details/sonic-the-hedgehog-cd-2011) |  |
 | 36 | Sonic 1 & 2 (Retro Engine Data & PC Port) | Mega Drive / PC | ✅ | [İndir](https://archive.org/download/retroenginedatarsdkfiles_202508/) | [Detay](https://archive.org/details/retroenginedatarsdkfiles_202508) |  |
+| 37 | Sonic the Hedgehog 2006 (MarathonRecomp) | Xbox 360 | ✅ | [İndir](https://archive.org/download/Sonic-the-Hedgehog-2006_MarathonRecomp-2026-10-02/) | [Detay](https://archive.org/details/Sonic-the-Hedgehog-2006_MarathonRecomp-2026-10-02) |  |
+| 38 | Star Fox Adventures: Foxhollow (PC Port) | GameCube | ✅ | [İndir](https://archive.org/download/foxhollow-windows/) | [Detay](https://archive.org/details/foxhollow-windows) |  |
+| 39 | Animal Crossing: PC Decompilation | GameCube | ✅ | [İndir](https://archive.org/download/animal-crossing-decompilation/) | [Detay](https://archive.org/details/animal-crossing-decompilation) |  |
+| 40 | Metroid Prime (PC Port) | GameCube | ✅ | [İndir](https://archive.org/download/metroid-prime-pc-port/) | [Detay](https://archive.org/details/metroid-prime-pc-port) |  |
+| 41 | Dino Crisis Recompiled (v0.1.1) | PlayStation 1 | ✅ | [İndir](https://archive.org/download/dino-crisis-recompiled-v-0.1.1-pc-port/) | [Detay](https://archive.org/details/dino-crisis-recompiled-v-0.1.1-pc-port) |  |
+| 42 | MediEvil PS1 Recomp (v0.2b) | PlayStation 1 | ✅ | [İndir](https://archive.org/download/medi-evil-recomp-v-0.2b/) | [Detay](https://archive.org/details/medi-evil-recomp-v-0.2b) |  |
+| 43 | Ninja Gaiden 2 (Xbox 360 Recomp v1.3.0) | Xbox 360 | ✅ | [İndir](https://archive.org/download/ng2recomp_v1.3.0/) | [Detay](https://archive.org/details/ng2recomp_v1.3.0) |  |
+| 44 | Super Smash Bros N64 (PC Port v1.6) | Nintendo 64 | ✅ | [İndir](https://archive.org/download/super-smash-bros-v-1.6-pc-port/) | [Detay](https://archive.org/details/super-smash-bros-v-1.6-pc-port) |  |
+| 45 | The Darkness Recomp (Xbox 360) | Xbox 360 | ✅ | [İndir](https://archive.org/download/the-darkness-rec-omp-windows.-7z/) | [Detay](https://archive.org/details/the-darkness-rec-omp-windows.-7z) |  |
+| 46 | Dragon Ball Z: Budokai Tenkaichi 3 (PC Port) | PlayStation 2 | ✅ | [İndir](https://archive.org/download/dragon-ball-z-budokai-tenkaichi-3_20261011/) | [Detay](https://archive.org/details/dragon-ball-z-budokai-tenkaichi-3_20261011) |  |
 
 ## Durum Açıklamaları
 - ✅ = Çalışıyor (HTTP 200)
