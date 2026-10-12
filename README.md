@@ -41,3 +41,18 @@
 > [!NOTE]
 > **Bu arşiv tamamen dijital oyun mirasını ve kültürünü koruma (preservation) amacıyla hazırlanmıştır.** 
 > Sitede yer alan hiçbir dosya tarafımızca barındırılmamakta olup, kamuya açık üçüncü taraf arşiv platformlarına (Archive.org) yönlendirme yapılmaktadır. Telif hakkı sahipleri herhangi bir içerik kaldırma veya telif bildirimi için GitHub üzerinden Issues açarak veya iletişime geçerek talepte bulunabilirler. İlgili bağlantılar derhal kaldırılacaktır.
+
+---
+
+## 💖 Destek & Bağış (Support & Contributions)
+
+**Lordumelkor Game's Archive** topluluk odaklı, bağımsız bir dijital koruma projesidir. Arşivin güncel tutulmasını, yeni recomp oyunların ve kırık linklerin düzenli takibini desteklemek isterseniz kripto para ile katkıda bulunabilirsiniz:
+
+- **Bitcoin (BTC):** `15nzhjDB6meaGNUtiTvZSKHHEsHVzZ1T6S`
+- **Tether (USDT):**
+  - **TRC20:** `TV7GLKkrkN94dYwtaxzoubnygJvz9BRCsG`
+  - **BEP20 (BSC):** `0x542bc68515a34e15610cef9322464c4bcced6f75`
+  - **ERC20 (ETH):** `0x542bc68515a34e15610cef9322464c4bcced6f75`
+
+*(Oyun koruma ve recomp arşivini desteklediğiniz için teşekkürler! / Thank you for supporting digital preservation!)*
+
